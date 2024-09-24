@@ -1,0 +1,27 @@
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.header .inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--inner-gap);
+}
+
+.header a {
+  color: #fff;
+}
+
+.header .gnb li {
+  display: flex;
+  gap: 40px;
+}
+
+.header .gnb li a {
+  font-weight: 600;
+}

@@ -1,0 +1,10 @@
+.footer {
+  font-size: 14px;
+  color: #dddddd;
+  padding: 20px 0;
+  background-color: #222;
+}
+
+.footer .inner {
+  padding: var(--inner-gap);
+}
