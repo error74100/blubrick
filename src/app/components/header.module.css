@@ -3,7 +3,12 @@
   left: 0;
   top: 0;
   right: 0;
+  transition: background-color 0.3s ease;
   z-index: 10;
+}
+
+.header.active {
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .header .inner {
@@ -23,5 +28,6 @@
 }
 
 .header .gnb li a {
+  word-break: keep-all;
   font-weight: 600;
 }

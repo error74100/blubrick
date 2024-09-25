@@ -95,6 +95,7 @@ body {
 }
 
 :root {
+  --main-color: rgb(51, 129, 208);
   --inner-gap: 20px;
 }
 
@@ -108,11 +109,14 @@ body {
 .subwrap .sub_visual {
   position: relative;
   text-align: center;
-  padding: 150px 0;
   background-image: url(/img/sample_img01.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
 }
 
 .subwrap .sub_visual:after {
@@ -127,6 +131,24 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+.subwrap .sub_visual h2 {
+  position: relative;
+  font-size: 30px;
+  color: #fff;
+  z-index: 2;
+}
+
 .subwrap .sub_content {
+  min-height: calc(100vh - 400px);
   padding: 100px 50px;
+}
+
+/* swiper */
+.swiper-pagination-bullet-active {
+  background: var(--main-color) !important;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: var(--main-color) !important;
 }
