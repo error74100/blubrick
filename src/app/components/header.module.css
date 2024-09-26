@@ -31,3 +31,8 @@
   word-break: keep-all;
   font-weight: 600;
 }
+
+.header .gnb li a:hover,
+.header .gnb li a.active {
+  color: rgb(120 186 253);
+}

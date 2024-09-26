@@ -97,6 +97,7 @@ body {
 :root {
   --main-color: rgb(51, 129, 208);
   --inner-gap: 20px;
+  --max-width: 1400px;
 }
 
 .main {
@@ -129,6 +130,26 @@ body {
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.subwrap .sub_visual.type2 {
+  background-image: url(/img/sample_img02.jpg);
+}
+
+.subwrap .sub_visual.type3 {
+  background-image: url(/img/sample_img01.jpg);
+}
+
+.subwrap .sub_visual.type4 {
+  background-image: url(/img/sample_img02.jpg);
+}
+
+.subwrap .sub_visual.type5 {
+  background-image: url(/img/sample_img01.jpg);
+}
+
+.subwrap .sub_visual.type6 {
+  background-image: url(/img/sample_img02.jpg);
 }
 
 .subwrap .sub_visual h2 {
