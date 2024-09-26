@@ -8,6 +8,7 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 
 function OffCanvasExample({ ...props }) {
   const [show, setShow] = useState(false);
+  const pathname = usePathname();
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
@@ -22,13 +23,77 @@ function OffCanvasExample({ ...props }) {
         </div>
       </button>
 
-      <Offcanvas show={show} onHide={handleClose} scroll={true} {...props}>
+      <Offcanvas
+        show={show}
+        onHide={handleClose}
+        scroll={true}
+        {...props}
+        className={style.m_menu_wrap}
+      >
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Logo</Offcanvas.Title>
+          <Offcanvas.Title>
+            <Link href="/">logo</Link>
+          </Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
-          Some text as placeholder. In real life you can have the elements you
-          have chosen. Like, text, images, lists, etc.
+          <nav>
+            <ul className={style.gnb}>
+              <li>
+                <Link
+                  href="/about"
+                  className={pathname === '/about' ? `${style.active}` : ''}
+                >
+                  소개
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/information"
+                  className={
+                    pathname === '/information' ? `${style.active}` : ''
+                  }
+                >
+                  생활안내
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/facilities"
+                  className={
+                    pathname === '/facilities' ? `${style.active}` : ''
+                  }
+                >
+                  시설보기
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/environment"
+                  className={
+                    pathname === '/environment' ? `${style.active}` : ''
+                  }
+                >
+                  주변환경
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/map"
+                  className={pathname === '/map' ? `${style.active}` : ''}
+                >
+                  오시는길
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/qna"
+                  className={pathname === '/qna' ? `${style.active}` : ''}
+                >
+                  입실문의
+                </Link>
+              </li>
+            </ul>
+          </nav>
         </Offcanvas.Body>
       </Offcanvas>
     </>

@@ -71,6 +71,25 @@
   top: 29px;
 }
 
+.m_menu_wrap {
+  max-width: 300px;
+}
+
+.m_menu_wrap .gnb li {
+  padding: 10px 5px;
+  border-bottom: 1px solid #ddd;
+}
+
+.m_menu_wrap .gnb li a {
+  color: #222;
+  font-weight: 500;
+}
+
+.m_menu_wrap .gnb li a:hover,
+.m_menu_wrap .gnb li a.active {
+  color: var(--main-color);
+}
+
 @media all and (max-width: 1000px) {
   .header .gnb {
     display: none;
