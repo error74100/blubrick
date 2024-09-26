@@ -4,6 +4,36 @@ import Link from 'next/link';
 import style from './header.module.css';
 import { useEffect, useState } from 'react';
 import { usePathname } from 'next/navigation';
+import Offcanvas from 'react-bootstrap/Offcanvas';
+
+function OffCanvasExample({ ...props }) {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
+  return (
+    <>
+      <button onClick={handleShow} className={style.m_menu_btn}>
+        <div className={style.hamburger_menu}>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </button>
+
+      <Offcanvas show={show} onHide={handleClose} scroll={true} {...props}>
+        <Offcanvas.Header closeButton>
+          <Offcanvas.Title>Logo</Offcanvas.Title>
+        </Offcanvas.Header>
+        <Offcanvas.Body>
+          Some text as placeholder. In real life you can have the elements you
+          have chosen. Like, text, images, lists, etc.
+        </Offcanvas.Body>
+      </Offcanvas>
+    </>
+  );
+}
 
 export default function Header() {
   const [isFixed, setIsFixed] = useState(false);
@@ -72,6 +102,9 @@ export default function Header() {
             </Link>
           </li>
         </ul>
+
+        {/* mobile menu */}
+        <OffCanvasExample placement={'end'} name={'end'} />
       </div>
     </header>
   );

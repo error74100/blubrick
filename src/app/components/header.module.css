@@ -36,3 +36,48 @@
 .header .gnb li a.active {
   color: rgb(120 186 253);
 }
+
+.header .m_menu_btn {
+  display: none;
+  display: block;
+  position: fixed;
+  right: 20px;
+  top: 6px;
+  width: 46px;
+  height: 46px;
+  text-indent: -9999em;
+  z-index: 8;
+  cursor: pointer;
+  border: 0;
+  background: transparent;
+}
+
+.header .hamburger_menu > div {
+  background: rgb(255, 255, 255);
+  height: 2px;
+  left: 12px;
+  position: absolute;
+  border-radius: 2px;
+  width: 24px;
+  top: 23px;
+  transition: all 0.2s cubic-bezier(0, 0, 0, 1) 0s;
+  transform: none;
+}
+
+.header .hamburger_menu > div:first-child {
+  top: 17px;
+}
+
+.header .hamburger_menu > div:last-child {
+  top: 29px;
+}
+
+@media all and (max-width: 1000px) {
+  .header .gnb {
+    display: none;
+  }
+
+  .header .m_menu_btn {
+    display: inline-block;
+  }
+}

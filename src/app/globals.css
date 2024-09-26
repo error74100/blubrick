@@ -75,6 +75,8 @@ body {
 }
 
 body {
+  font-size: 16px;
+  line-height: 1.285;
   font-family: 'Pretendard', 'Apple SD 산돌고딕 Neo', 'Apple SD Gothic Neo',
     '나눔고딕', NanumGothic, ng, sans-serif;
 }
