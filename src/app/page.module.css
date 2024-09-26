@@ -47,7 +47,7 @@
 
 .movie .inner h2 {
   font-size: 50px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .movie .inner p {
@@ -102,7 +102,7 @@
 .intro .h3_type {
   position: relative;
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 700;
   z-index: 2;
 }
 
@@ -149,7 +149,7 @@
 .intro .inner p {
   font-size: 16px;
   color: #000;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .intro .inner .img {
@@ -179,7 +179,7 @@
 
 .qna .h3_type {
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .qna .img {
@@ -193,5 +193,5 @@
 .qna .call a {
   font-size: 30px;
   color: var(--main-color);
-  font-weight: 600;
+  font-weight: 700;
 }
