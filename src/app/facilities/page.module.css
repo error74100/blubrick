@@ -1,0 +1,41 @@
+.facilities_intro {
+  color: rgba(255, 255, 255, 0.8);
+  padding: 20px 0;
+  background-color: #222;
+}
+
+.facilities_intro .inner {
+  display: flex;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 100px 20px 20px 20px;
+}
+
+.facilities_intro .contbox {
+  width: 100%;
+  font-size: 24px;
+  line-height: 1.4;
+  font-weight: 300;
+}
+
+.facilities_intro .contbox h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.facilities_intro .contbox h3 {
+  font-size: 18px;
+  padding: 4px 0 40px 0;
+  font-weight: 400;
+}
+
+.facilities_intro .slider_wrap .slide_tabs {
+  margin: 0 auto !important;
+  padding: 0 20px;
+  max-width: var(--max-width);
+  border: none;
+}
+
+.facilities_intro .slider_wrap .slide_item img {
+  width: 100%;
+}

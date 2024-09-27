@@ -1,0 +1,71 @@
+.qna_intro {
+  padding: 50px 20px 100px 20px;
+  background-color: #f2f2f2;
+}
+
+.qna_intro .inner {
+  display: flex;
+  flex-direction: column;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.qna_intro .contbox {
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.4;
+  font-weight: 300;
+}
+
+.qna_intro .contbox h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.qna_intro .contbox h3 {
+  font-size: 22px;
+  padding: 4px 0 40px 0;
+  font-weight: 400;
+}
+
+.qna_intro .group {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 20px;
+  border: 5px solid #ddd;
+  background-color: #fff;
+}
+
+.qna_intro .group .h3_type {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.qna_intro .group .img {
+  padding: 25px 0 22px 0;
+}
+
+.qna_intro .group .img img {
+  max-width: 60px;
+}
+
+.qna_intro .group .call a {
+  font-size: 30px;
+  color: var(--main-color);
+  font-weight: 700;
+}
+
+.qna_intro .faq {
+  border: 1px solid #ddd;
+}
+
+.qna_intro.faq_type {
+  padding: 50px 20px 100px 20px;
+  background-color: #fff;
+}
+
+.qna_intro .faq_cont {
+}

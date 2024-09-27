@@ -81,6 +81,7 @@
 }
 
 .m_menu_wrap .gnb li a {
+  display: block;
   color: #222;
   font-weight: 500;
 }

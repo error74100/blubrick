@@ -1,0 +1,75 @@
+.environment_intro {
+  padding: 20px;
+}
+
+.environment_intro .inner {
+  display: flex;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.environment_intro .contbox {
+  font-size: 24px;
+  line-height: 1.4;
+  font-weight: 300;
+}
+
+.environment_intro .group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.environment_intro .group li {
+  flex: 0 1 50%;
+  flex-direction: column;
+  padding: 40px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.environment_intro .group h2 {
+  font-size: 30px;
+  padding: 0 0 2px 0;
+  font-weight: 700;
+}
+
+.environment_intro .group h3 {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.environment_intro .group .img {
+  padding: 10px;
+  margin: 15px 0;
+  border: 1px solid #ddd;
+  overflow: hidden;
+}
+
+.environment_intro .group .img:hover img {
+  transform: scale(1.1);
+}
+
+.environment_intro .group .img img {
+  max-width: 100%;
+  transition: all 0.4s ease-in-out;
+}
+
+.environment_intro .group .indent {
+  width: 100%;
+  text-indent: -6px;
+  padding: 0 10px 10px 22px;
+  line-height: 1.2;
+}
+
+.environment_intro .group .indent:before {
+  content: '-';
+  display: inline-block;
+  clear: both;
+  padding: 0 4px 0 0;
+}

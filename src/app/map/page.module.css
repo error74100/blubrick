@@ -1,0 +1,50 @@
+.map_intro {
+  padding: 20px;
+}
+
+.map_intro .inner {
+  display: flex;
+  flex-direction: column;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 80px 0;
+}
+
+.map_intro .contbox {
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.4;
+  font-weight: 300;
+}
+
+.map_intro .contbox h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.map_intro .contbox h3 {
+  font-size: 22px;
+  padding: 4px 0 50px 0;
+  font-weight: 400;
+}
+
+.map_intro .map {
+  padding: 150px 0;
+  text-align: center;
+  background-color: #ddd;
+}
+
+.map_intro .map_info {
+  padding: 40px 0;
+}
+
+.map_intro .map_info h4 {
+  font-size: 22px;
+
+  font-weight: 600;
+}
+
+.map_intro .map_info .desc {
+  padding: 0 0 40px 0;
+}

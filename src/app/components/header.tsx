@@ -13,6 +13,10 @@ function OffCanvasExample({ ...props }) {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
+  useEffect(() => {
+    setShow(false);
+  }, [pathname]);
+
   return (
     <>
       <button onClick={handleShow} className={style.m_menu_btn}>
@@ -118,7 +122,7 @@ export default function Header() {
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, []);
+  }, [pathname]);
 
   return (
     <header
