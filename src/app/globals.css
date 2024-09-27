@@ -197,3 +197,36 @@ body {
 .accordion-button {
   font-weight: 600;
 }
+
+/* 404 */
+.not-found {
+  background-color: #a0cadf;
+}
+
+.not-found .inner {
+  display: flex;
+  height: 100vh;
+  padding: var(--inner-gap);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.not-found .img img {
+  max-width: 140px;
+}
+
+.not-found h2 {
+  font-size: 30px;
+  padding: 20px 0 0 0;
+  font-weight: 600;
+}
+
+.not-found .desc {
+  font-size: 18px;
+  padding: 10px 0 40px 0;
+}
+
+.not-found .btn_wrap {
+}
