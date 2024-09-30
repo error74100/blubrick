@@ -33,7 +33,7 @@ export default function Page() {
               </p>
             </div>
             <div className={style.cont_img} data-aos="fade-left">
-              <img src="/img/sample_img01.jpg" alt="" />
+              <img src="/img/about-intro-img.png" alt="" />
             </div>
           </div>
         </div>

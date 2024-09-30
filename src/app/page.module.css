@@ -101,7 +101,7 @@
 
 .intro .h3_type {
   position: relative;
-  font-size: 30px;
+  font-size: 36px;
   font-weight: 700;
   z-index: 2;
 }
@@ -164,6 +164,7 @@
 }
 
 .qna {
+  text-align: center;
   padding: 100px 20px;
   background-color: #f2f2f2;
 }
@@ -178,8 +179,13 @@
 }
 
 .qna .h3_type {
-  font-size: 30px;
+  font-size: 36px;
   font-weight: 700;
+}
+
+.qna .h3_type + p {
+  font-size: 20px;
+  padding: 0 0 40px 0;
 }
 
 .qna .img {
@@ -187,11 +193,15 @@
 }
 
 .qna .img img {
-  max-width: 60px;
+  max-width: 100px;
+}
+
+.qna .call {
+  padding: 0 0 40px 0;
 }
 
 .qna .call a {
-  font-size: 30px;
-  color: var(--main-color);
+  font-size: 36px;
+  color: #222;
   font-weight: 700;
 }

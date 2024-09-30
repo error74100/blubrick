@@ -11,14 +11,13 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import Button from 'react-bootstrap/Button';
+
 import { useEffect, useRef, useState } from 'react';
-import { useRouter } from 'next/navigation';
+import Link from 'next/link';
 
 export default function Home() {
   const [isActive, setIsActive] = useState(false);
   const sectionRef = useRef(null); // 해당 섹션을 참조할 ref 생성
-  const router = useRouter();
 
   useEffect(() => {
     AOS.init({
@@ -125,14 +124,9 @@ export default function Home() {
         </div>
 
         <p className={style.btn}>
-          <Button
-            variant="primary"
-            onClick={() => {
-              router.push('/facilities');
-            }}
-          >
+          <Link href="/facilities" className="btn_basic1">
             자세히 보기
-          </Button>
+          </Link>
         </p>
 
         <div
@@ -144,19 +138,25 @@ export default function Home() {
       </section>
 
       <section className={style.qna}>
+        <h3 className={style.h3_type} data-aos="fade-up">
+          입실 문의
+        </h3>
+        <p data-aos="fade-left" data-aos-delay="500">
+          궁금하신 점은 편하게 문의주세요.
+        </p>
+
         <div className={style.inner}>
-          <h3 className={style.h3_type} data-aos="fade-up">
-            입실 문의
-          </h3>
-          <p data-aos="fade-left" data-aos-delay="500">
-            궁금하신 점은 편하게 문의주세요.
-          </p>
           <p className={style.img}>
-            <img src="/img/icon-telephone.png" alt="" />
+            <img src="/img/icon-headset.png" alt="입실 문의 이미지" />
           </p>
-          <p className={style.call}>
+          <div className={style.call}>
             <a href="tel:010-0000-0000">010-0000-0000</a>
-          </p>
+            <p>(문의 가능시간 : 오전 09 ~ 오후 9시)</p>
+          </div>
+
+          <a href="tel:010-0000-0000" className="btn_basic1">
+            전화하기
+          </a>
         </div>
       </section>
     </>

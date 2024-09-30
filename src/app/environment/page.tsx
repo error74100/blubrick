@@ -25,36 +25,20 @@ export default function Page() {
             <div className={style.contbox}>
               <ul className={style.group}>
                 <li>
-                  <h2>소개 제목</h2>
-                  <h3>소개 소제목</h3>
                   <p className={style.img}>
                     <img src="/img/sample_img01.jpg" alt="" />
                   </p>
+                  <h2>소개 제목</h2>
                   <p className={style.indent}>
                     offcanvas while open. Consider leaving the default value
                   </p>
                 </li>
 
                 <li>
-                  <h2>소개 제목</h2>
-                  <h3>소개 소제목</h3>
                   <p className={style.img}>
                     <img src="/img/sample_img01.jpg" alt="" />
                   </p>
-                  <p className={style.indent}>
-                    offcanvas while open. Consider leaving the default value
-                  </p>
-                  <p className={style.indent}>
-                    22 offcanvas while open. Consider leaving the default value
-                  </p>
-                </li>
-
-                <li>
                   <h2>소개 제목</h2>
-                  <h3>소개 소제목</h3>
-                  <p className={style.img}>
-                    <img src="/img/sample_img01.jpg" alt="" />
-                  </p>
                   <p className={style.indent}>
                     offcanvas while open. Consider leaving the default value
                   </p>
@@ -64,22 +48,33 @@ export default function Page() {
                 </li>
 
                 <li>
-                  <h2>소개 제목</h2>
-                  <h3>소개 소제목</h3>
                   <p className={style.img}>
                     <img src="/img/sample_img01.jpg" alt="" />
                   </p>
+                  <h2>소개 제목</h2>
+                  <p className={style.indent}>
+                    offcanvas while open. Consider leaving the default value
+                  </p>
+                  <p className={style.indent}>
+                    22 offcanvas while open. Consider leaving the default value
+                  </p>
+                </li>
+
+                <li>
+                  <p className={style.img}>
+                    <img src="/img/sample_img01.jpg" alt="" />
+                  </p>
+                  <h2>소개 제목</h2>
                   <p className={style.indent}>
                     offcanvas while open. Consider leaving the default value
                   </p>
                 </li>
 
                 <li>
-                  <h2>소개 제목</h2>
-                  <h3>소개 소제목</h3>
                   <p className={style.img}>
                     <img src="/img/sample_img01.jpg" alt="" />
                   </p>
+                  <h2>소개 제목</h2>
                   <p className={style.indent}>
                     offcanvas while open. Consider leaving the default value
                   </p>

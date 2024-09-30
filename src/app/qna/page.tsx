@@ -30,11 +30,16 @@ export default function Page() {
 
             <div className={style.group}>
               <p className={style.img}>
-                <img src="/img/icon-telephone.png" alt="" />
+                <img src="/img/icon-headset.png" alt="입실 문의 이미지" />
               </p>
-              <p className={style.call}>
+              <div className={style.call}>
                 <a href="tel:010-0000-0000">010-0000-0000</a>
-              </p>
+                <p>(문의 가능시간 : 오전 09 ~ 오후 9시)</p>
+              </div>
+
+              <a href="tel:010-0000-0000" className="btn_basic1">
+                전화하기
+              </a>
             </div>
           </div>
         </div>
@@ -44,14 +49,18 @@ export default function Page() {
             <div className={style.contbox}>
               <h2 data-aos="fade-right">자주하는 질문</h2>
               <h3 data-aos="fade-right">
-                Build vertically collapsing accordions in combination with the
-                Collapse component.
+                자주 묻는 질문들에 친절히 답변 드립니다.
               </h3>
             </div>
 
-            <Accordion defaultActiveKey="0" className={style.faq_cont}>
+            <Accordion className={style.faq_cont}>
               <Accordion.Item eventKey="0">
-                <Accordion.Header>01. 자주하는 질문</Accordion.Header>
+                <Accordion.Header>
+                  <p className="q_tit">
+                    자주하는 <br />
+                    질문
+                  </p>
+                </Accordion.Header>
                 <Accordion.Body>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -65,7 +74,9 @@ export default function Page() {
               </Accordion.Item>
 
               <Accordion.Item eventKey="1">
-                <Accordion.Header>02. 자주하는 질문</Accordion.Header>
+                <Accordion.Header>
+                  <p className="q_tit">2 자주하는 질문</p>
+                </Accordion.Header>
                 <Accordion.Body>
                   Duis aute irure dolor in reprehenderit in voluptate velit esse
                   cillum dolore eu fugiat nulla pariatur. Excepteur sint
@@ -75,7 +86,9 @@ export default function Page() {
               </Accordion.Item>
 
               <Accordion.Item eventKey="2">
-                <Accordion.Header>03. 자주하는 질문</Accordion.Header>
+                <Accordion.Header>
+                  <p className="q_tit">3 자주하는 질문</p>
+                </Accordion.Header>
                 <Accordion.Body>
                   Excepteur sint occaecat cupidatat non proident, sunt in culpa
                   qui officia deserunt mollit anim id est laborum.
