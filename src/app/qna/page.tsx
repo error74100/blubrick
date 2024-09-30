@@ -16,8 +16,8 @@ export default function Page() {
 
   return (
     <div className="subwrap">
-      <div className="sub_visual type2">
-        <h2 data-aos="fade-up">qna</h2>
+      <div className="sub_visual type6">
+        <h2 data-aos="fade-up">Room Inquiry</h2>
       </div>
 
       <div className="sub_content">

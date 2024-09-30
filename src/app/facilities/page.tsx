@@ -25,7 +25,7 @@ export default function Page() {
   return (
     <div className="subwrap">
       <div className="sub_visual type3">
-        <h2 data-aos="fade-up">facilities</h2>
+        <h2 data-aos="fade-up">View Facilities</h2>
       </div>
 
       <div className="sub_content">

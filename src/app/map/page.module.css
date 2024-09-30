@@ -30,7 +30,7 @@
 }
 
 .map_intro .map {
-  padding: 150px 0;
+  height: 600px;
   text-align: center;
   background-color: #ddd;
 }
@@ -41,10 +41,40 @@
 
 .map_intro .map_info h4 {
   font-size: 22px;
-
   font-weight: 600;
 }
 
 .map_intro .map_info .desc {
   padding: 0 0 40px 0;
+  line-height: 1.6;
+}
+
+.map_intro .map_info .desc .btn_wrap {
+  padding: 20px 0 0 0;
+}
+
+.map_intro .map_info .desc .btn_wrap a ~ a {
+  margin-left: 4px;
+}
+
+.map_intro .map .map_marker {
+  display: block;
+  width: 120px;
+  height: 32px;
+  color: #fff;
+  line-height: 32px;
+  left: 319px;
+  top: 229px;
+  padding: 0 5px;
+  transform: translate3d(0px, -60px, 0);
+  font-weight: 700;
+  background: var(--main-color);
+  border: 1px solid rgb(15, 77, 152);
+  z-index: 0;
+}
+
+@media all and (max-width: 1000px) {
+  .map_intro .map {
+    height: 300px;
+  }
 }

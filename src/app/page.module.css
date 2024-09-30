@@ -138,7 +138,6 @@
   text-align: center;
   border-radius: 5px;
   padding: 30px 5px;
-  border: 1px solid rgba(255, 255, 255, 0.5);
   background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -147,7 +146,7 @@
 }
 
 .intro .inner p {
-  font-size: 16px;
+  font-size: 18px;
   color: #000;
   font-weight: 700;
 }
@@ -161,6 +160,15 @@
 .intro .inner .img img {
   max-width: 100%;
   max-height: 100%;
+}
+
+.intro .inner .img + p {
+  padding: 10px 0 4px 0;
+}
+
+.intro .inner .desc {
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .qna {

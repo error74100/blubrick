@@ -101,24 +101,28 @@ export default function Home() {
                 <img src="/img/icon-toilet.png" alt="각방 화장실 이미지" />
               </p>
               <p>각방 화장실</p>
+              <p className={style.desc}>bathroom in each room</p>
             </li>
             <li>
               <p className={style.img}>
                 <img src="/img/icon-single-bed.png" alt="편안한 침대 이미지" />
               </p>
               <p>편안한 침대</p>
+              <p className={style.desc}>comfortable bed</p>
             </li>
             <li>
               <p className={style.img}>
                 <img src="/img/icon-work-table.png" alt="책상, 의자 이미지" />
               </p>
               <p>책상, 의자</p>
+              <p className={style.desc}>desk & chair</p>
             </li>
             <li>
               <p className={style.img}>
                 <img src="/img/icon-wifi.png" alt="각방 WI-FI 이미지" />
               </p>
               <p>각방 WI-FI</p>
+              <p className={style.desc}>WI-FI in each room</p>
             </li>
           </ul>
         </div>

@@ -143,6 +143,7 @@ body {
   position: relative;
   font-size: 30px;
   color: #fff;
+  font-weight: 300;
   z-index: 2;
 }
 
@@ -204,6 +205,27 @@ a[class*='btn_basic'].round {
 }
 .btn_basic2:hover {
   background-color: #000;
+}
+
+/* icon */
+.icon-right-arrow {
+  position: relative;
+  font-size: 0;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 0;
+}
+.icon-right-arrow:after {
+  content: '';
+  display: block;
+  clear: both;
+  width: 24px;
+  height: 14px;
+  margin: -2px 0 0 5px;
+  background-image: url(/img/icon-right-arrow.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* swiper */
