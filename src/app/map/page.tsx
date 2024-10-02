@@ -3,7 +3,7 @@
 import 'aos/dist/aos.css';
 import style from './page.module.css';
 import AOS from 'aos';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import Badge from 'react-bootstrap/Badge';
 
 declare global {
@@ -13,7 +13,7 @@ declare global {
 }
 
 export default function Page() {
-  const [map, setMap] = useState(null); // 지도 객체
+  // const [map, setMap] = useState(null); // 지도 객체
   const address = '서울 동작구 만양로8길 69'; // 원하는 주소
   const addressName = '모젠리빙텔'; // 원하는 주소
 
@@ -21,7 +21,7 @@ export default function Page() {
     const kakaoMapScript = document.createElement('script');
 
     kakaoMapScript.async = false;
-    kakaoMapScript.src = `//dapi.kakao.com/v2/maps/sdk.js?appkey=0d94dde4b6989131a4c02bb9f4f3e8ab&autoload=false&libraries=services`;
+    kakaoMapScript.src = `//dapi.kakao.com/v2/maps/sdk.js?appkey=${process.env.NEXT_PUBLIC_KAKAOMAP_APPKEY}&autoload=false&libraries=services`;
     document.head.appendChild(kakaoMapScript);
 
     const onLoadKakaoAPI = () => {
@@ -38,12 +38,12 @@ export default function Page() {
         center: new window.kakao.maps.LatLng(
           37.51036817596226,
           126.9455596118595
-        ), // 임시 기본 좌표
+        ), // 기본 좌표
         level: 4, // 지도 확대 레벨
       };
 
       const mapInstance = new window.kakao.maps.Map(container, options); // 지도 생성
-      setMap(mapInstance); // 지도 객체 저장
+      // setMap(mapInstance); // 지도 객체 저장
 
       // 주소로 위치를 검색 후 지도에 마커 표시
       searchAddressToCoordinate(address, mapInstance);
