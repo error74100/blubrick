@@ -76,13 +76,14 @@
 }
 
 .m_menu_wrap .gnb li {
-  padding: 10px 5px;
+  padding: 20px 5px;
   border-bottom: 1px solid #ddd;
 }
 
 .m_menu_wrap .gnb li a {
   display: block;
   color: #222;
+  font-size: 1.125rem;
   font-weight: 500;
 }
 
