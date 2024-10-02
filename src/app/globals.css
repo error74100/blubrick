@@ -147,10 +147,6 @@ body {
   z-index: 2;
 }
 
-.subwrap .sub_content {
-  min-height: calc(100vh - 400px);
-}
-
 /* button */
 button[class*='btn_basic'],
 a[class*='btn_basic'] {
@@ -359,5 +355,37 @@ a[class*='btn_basic'].round {
   padding: 10px 0 40px 0;
 }
 
-.not-found .btn_wrap {
+@media all and (max-width: 1000px) {
+  html,
+  body {
+    font-size: 15px;
+  }
+}
+
+@media all and (max-width: 480px) {
+  html,
+  body {
+    font-size: 14px;
+  }
+
+  .accordion-header:before {
+    left: 10px;
+    width: 26px;
+    height: 26px;
+  }
+
+  .accordion-button {
+    padding: 18px 20px 18px 45px;
+  }
+
+  .accordion-body {
+    padding: 20px 20px 20px 45px;
+  }
+
+  .accordion-body:before {
+    left: 14px;
+    top: 24px;
+    width: 22px;
+    height: 22px;
+  }
 }

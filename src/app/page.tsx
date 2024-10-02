@@ -72,13 +72,28 @@ export default function Home() {
           scrollbar={{ draggable: true }}
         >
           <SwiperSlide className={style.slide_item}>
-            <img src="/img/[temp]main_slidebanner_01.jpg" alt="" />
+            <p className={style.img_pc}>
+              <img src="/img/temp_main_slidebanner.jpg" alt="" />
+            </p>
+            <p className={style.img_m}>
+              <img src="/img/temp_main_slidebanner_m.jpg" alt="" />
+            </p>
           </SwiperSlide>
           <SwiperSlide className={style.slide_item}>
-            <img src="/img/[temp]main_slidebanner_01.jpg" alt="" />
+            <p className={style.img_pc}>
+              <img src="/img/temp_main_slidebanner.jpg" alt="" />
+            </p>
+            <p className={style.img_m}>
+              <img src="/img/temp_main_slidebanner_m.jpg" alt="" />
+            </p>
           </SwiperSlide>
           <SwiperSlide className={style.slide_item}>
-            <img src="/img/[temp]main_slidebanner_01.jpg" alt="" />
+            <p className={style.img_pc}>
+              <img src="/img/temp_main_slidebanner.jpg" alt="" />
+            </p>
+            <p className={style.img_m}>
+              <img src="/img/temp_main_slidebanner_m.jpg" alt="" />
+            </p>
           </SwiperSlide>
         </Swiper>
       </section>

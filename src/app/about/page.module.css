@@ -30,13 +30,13 @@
 }
 
 .about_intro .contbox h2 {
-  font-size: 50px;
+  font-size: 3.125rem;
   padding: 0 0 20px 0;
   font-weight: 700;
 }
 
 .about_intro .contbox h3 {
-  font-size: 26px;
+  font-size: 1.625rem;
   font-weight: 500;
 }
 
@@ -64,4 +64,26 @@
   font-size: 40px;
   padding: 0 0 20px 0;
   font-weight: 700;
+}
+
+@media all and (max-width: 1000px) {
+  .about_intro .inner {
+    padding: 150px 0;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .about_intro .inner {
+    flex-direction: column;
+    padding: 100px 0;
+    gap: 100px;
+  }
+
+  .about_intro .contbox {
+    width: 100%;
+  }
+
+  .about_intro .cont_img {
+    width: 80%;
+  }
 }

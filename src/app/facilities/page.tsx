@@ -58,13 +58,28 @@ export default function Page() {
                   scrollbar={{ draggable: true }}
                 >
                   <SwiperSlide className={style.slide_item}>
-                    <img src="/img/[temp]main_slidebanner_01.jpg" alt="" />
+                    <p className={style.img_pc}>
+                      <img src="/img/temp_facilities_slide.jpg" alt="" />
+                    </p>
+                    <p className={style.img_m}>
+                      <img src="/img/temp_facilities_slide_m.jpg" alt="" />
+                    </p>
                   </SwiperSlide>
                   <SwiperSlide className={style.slide_item}>
-                    <img src="/img/[temp]main_slidebanner_01.jpg" alt="" />
+                    <p className={style.img_pc}>
+                      <img src="/img/temp_facilities_slide.jpg" alt="" />
+                    </p>
+                    <p className={style.img_m}>
+                      <img src="/img/temp_facilities_slide_m.jpg" alt="" />
+                    </p>
                   </SwiperSlide>
                   <SwiperSlide className={style.slide_item}>
-                    <img src="/img/[temp]main_slidebanner_01.jpg" alt="" />
+                    <p className={style.img_pc}>
+                      <img src="/img/temp_facilities_slide.jpg" alt="" />
+                    </p>
+                    <p className={style.img_m}>
+                      <img src="/img/temp_facilities_slide_m.jpg" alt="" />
+                    </p>
                   </SwiperSlide>
                 </Swiper>
               </Tab>
@@ -79,13 +94,28 @@ export default function Page() {
                   scrollbar={{ draggable: true }}
                 >
                   <SwiperSlide className={style.slide_item}>
-                    <img src="/img/[temp]main_slidebanner_01.jpg" alt="" />
+                    <p className={style.img_pc}>
+                      <img src="/img/temp_facilities_slide.jpg" alt="" />
+                    </p>
+                    <p className={style.img_m}>
+                      <img src="/img/temp_facilities_slide_m.jpg" alt="" />
+                    </p>
                   </SwiperSlide>
                   <SwiperSlide className={style.slide_item}>
-                    <img src="/img/[temp]main_slidebanner_01.jpg" alt="" />
+                    <p className={style.img_pc}>
+                      <img src="/img/temp_facilities_slide.jpg" alt="" />
+                    </p>
+                    <p className={style.img_m}>
+                      <img src="/img/temp_facilities_slide_m.jpg" alt="" />
+                    </p>
                   </SwiperSlide>
                   <SwiperSlide className={style.slide_item}>
-                    <img src="/img/[temp]main_slidebanner_01.jpg" alt="" />
+                    <p className={style.img_pc}>
+                      <img src="/img/temp_facilities_slide.jpg" alt="" />
+                    </p>
+                    <p className={style.img_m}>
+                      <img src="/img/temp_facilities_slide_m.jpg" alt="" />
+                    </p>
                   </SwiperSlide>
                 </Swiper>
               </Tab>

@@ -46,13 +46,21 @@
 }
 
 .movie .inner h2 {
-  font-size: 50px;
+  font-size: 3.125rem;
   font-weight: 700;
 }
 
 .movie .inner p {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 100;
+}
+
+.slide .slide_item .img_pc {
+  display: block;
+}
+
+.slide .slide_item .img_m {
+  display: none;
 }
 
 .slide .slide_item img {
@@ -101,14 +109,14 @@
 
 .intro .h3_type {
   position: relative;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 700;
   z-index: 2;
 }
 
 .intro p {
   position: relative;
-  font-size: 20px;
+  font-size: 1.25rem;
   z-index: 2;
 }
 
@@ -146,7 +154,7 @@
 }
 
 .intro .inner p {
-  font-size: 18px;
+  font-size: 1.125rem;
   color: #000;
   font-weight: 700;
 }
@@ -167,7 +175,7 @@
 }
 
 .intro .inner .desc {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
 }
 
@@ -181,18 +189,18 @@
   max-width: var(--max-width);
   margin: 0 auto;
   text-align: center;
-  padding: 50px 20px;
+  padding: 50px 20px 80px 20px;
   border: 5px solid #ddd;
   background-color: #fff;
 }
 
 .qna .h3_type {
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 700;
 }
 
 .qna .h3_type + p {
-  font-size: 20px;
+  font-size: 1.25rem;
   padding: 0 0 40px 0;
 }
 
@@ -209,7 +217,67 @@
 }
 
 .qna .call a {
-  font-size: 36px;
+  font-size: 2.25rem;
   color: #222;
   font-weight: 700;
+}
+
+@media all and (max-width: 1000px) {
+  .slide .slide_item .img_pc {
+    display: none;
+  }
+
+  .slide .slide_item .img_m {
+    display: block;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .intro {
+    height: auto;
+    padding: 80px 0;
+  }
+
+  .intro .inner ul {
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 5px;
+  }
+
+  .intro .inner ul li {
+    display: flex;
+    flex-basis: calc(50% - 40px);
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 5px;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .qna {
+    padding: 100px 20px;
+  }
+
+  .qna .inner {
+    padding: 40px 20px 60px 20px;
+  }
+
+  .qna .call {
+    padding: 0 0 40px 0;
+  }
+
+  .qna .call a {
+    font-size: 1.875rem;
+  }
+}
+
+@media all and (max-width: 340px) {
+  .intro .inner ul li {
+    flex-basis: 100%;
+    padding: 20px 5px;
+  }
+
+  .qna .inner {
+    padding: 40px 20px 60px 20px;
+  }
 }

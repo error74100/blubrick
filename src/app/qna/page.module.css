@@ -14,18 +14,18 @@
 .qna_intro .contbox {
   width: 100%;
   text-align: center;
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 1.4;
   font-weight: 300;
 }
 
 .qna_intro .contbox h2 {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 700;
 }
 
 .qna_intro .contbox h3 {
-  font-size: 22px;
+  font-size: 1.375rem;
   padding: 4px 0 50px 0;
   font-weight: 400;
 }
@@ -40,7 +40,7 @@
 }
 
 .qna_intro .group .h3_type {
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 700;
 }
 
@@ -54,7 +54,7 @@
 
 .qna_intro .group .call a {
   display: inline-block;
-  font-size: 36px;
+  font-size: 2.25rem;
   color: #222;
   font-weight: 700;
 }
@@ -74,4 +74,21 @@
 
 .qna_intro .faq_cont {
   border-top: 1px solid #222;
+}
+
+@media all and (max-width: 480px) {
+  .qna_intro.faq_type {
+    padding: 40px 20px 40px 20px;
+  }
+
+  .qna_intro .group .call a {
+    font-size: 1.875rem;
+  }
+
+  .qna_intro .contbox h3 {
+    font-size: 1.125rem;
+  }
+}
+
+@media all and (max-width: 340px) {
 }

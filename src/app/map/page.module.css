@@ -13,18 +13,18 @@
 .map_intro .contbox {
   width: 100%;
   text-align: center;
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 1.4;
   font-weight: 300;
 }
 
 .map_intro .contbox h2 {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 700;
 }
 
 .map_intro .contbox h3 {
-  font-size: 22px;
+  font-size: 1.375rem;
   padding: 4px 0 50px 0;
   font-weight: 400;
 }
@@ -75,6 +75,25 @@
 
 @media all and (max-width: 1000px) {
   .map_intro .map {
+    height: 450px;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .map_intro .inner {
+    padding: 50px 0 0 0;
+  }
+
+  .map_intro .map {
     height: 300px;
+  }
+
+  .map_intro .map_info .desc .btn_wrap a {
+    display: block;
+  }
+
+  .map_intro .map_info .desc .btn_wrap a ~ a {
+    margin-left: 0;
+    margin-top: 5px;
   }
 }

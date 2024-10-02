@@ -100,3 +100,13 @@
     display: inline-block;
   }
 }
+
+@media all and (max-width: 480px) {
+  .m_menu_wrap {
+    max-width: 70%;
+  }
+
+  .header .m_menu_btn {
+    right: 10px;
+  }
+}

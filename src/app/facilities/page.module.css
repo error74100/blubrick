@@ -13,18 +13,18 @@
 
 .facilities_intro .contbox {
   width: 100%;
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 1.4;
   font-weight: 300;
 }
 
 .facilities_intro .contbox h2 {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 700;
 }
 
 .facilities_intro .contbox h3 {
-  font-size: 18px;
+  font-size: 1.125rem;
   padding: 4px 0 40px 0;
   font-weight: 400;
 }
@@ -36,6 +36,24 @@
   border: none;
 }
 
+.facilities_intro .slider_wrap .slide_item .img_pc {
+  display: block;
+}
+
+.facilities_intro .slider_wrap .slide_item .img_m {
+  display: none;
+}
+
 .facilities_intro .slider_wrap .slide_item img {
   width: 100%;
+}
+
+@media all and (max-width: 1000px) {
+  .facilities_intro .slider_wrap .slide_item .img_pc {
+    display: none;
+  }
+
+  .facilities_intro .slider_wrap .slide_item .img_m {
+    display: block;
+  }
 }
