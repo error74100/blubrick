@@ -59,26 +59,30 @@ export default function Page() {
                 >
                   <SwiperSlide className={style.slide_item}>
                     <p className={style.img_pc}>
-                      <img src="/img/temp_facilities_slide.jpg" alt="" />
+                      <img
+                        src="/img/facilities_slide_personal_01.jpg"
+                        alt="개인시설 이미지 1"
+                      />
                     </p>
                     <p className={style.img_m}>
-                      <img src="/img/temp_facilities_slide_m.jpg" alt="" />
+                      <img
+                        src="/img/facilities_slide_personal_01_m.jpg"
+                        alt="개인시설 이미지 1"
+                      />
                     </p>
                   </SwiperSlide>
                   <SwiperSlide className={style.slide_item}>
                     <p className={style.img_pc}>
-                      <img src="/img/temp_facilities_slide.jpg" alt="" />
+                      <img
+                        src="/img/facilities_slide_personal_02.jpg"
+                        alt="개인시설 이미지 2"
+                      />
                     </p>
                     <p className={style.img_m}>
-                      <img src="/img/temp_facilities_slide_m.jpg" alt="" />
-                    </p>
-                  </SwiperSlide>
-                  <SwiperSlide className={style.slide_item}>
-                    <p className={style.img_pc}>
-                      <img src="/img/temp_facilities_slide.jpg" alt="" />
-                    </p>
-                    <p className={style.img_m}>
-                      <img src="/img/temp_facilities_slide_m.jpg" alt="" />
+                      <img
+                        src="/img/facilities_slide_personal_02_m.jpg"
+                        alt="개인시설 이미지 2"
+                      />
                     </p>
                   </SwiperSlide>
                 </Swiper>
@@ -95,26 +99,30 @@ export default function Page() {
                 >
                   <SwiperSlide className={style.slide_item}>
                     <p className={style.img_pc}>
-                      <img src="/img/temp_facilities_slide.jpg" alt="" />
+                      <img
+                        src="/img/facilities_slide_personal_01.jpg"
+                        alt="개인시설 이미지 1"
+                      />
                     </p>
                     <p className={style.img_m}>
-                      <img src="/img/temp_facilities_slide_m.jpg" alt="" />
+                      <img
+                        src="/img/facilities_slide_personal_01_m.jpg"
+                        alt="개인시설 이미지 1"
+                      />
                     </p>
                   </SwiperSlide>
                   <SwiperSlide className={style.slide_item}>
                     <p className={style.img_pc}>
-                      <img src="/img/temp_facilities_slide.jpg" alt="" />
+                      <img
+                        src="/img/facilities_slide_personal_02.jpg"
+                        alt="개인시설 이미지 2"
+                      />
                     </p>
                     <p className={style.img_m}>
-                      <img src="/img/temp_facilities_slide_m.jpg" alt="" />
-                    </p>
-                  </SwiperSlide>
-                  <SwiperSlide className={style.slide_item}>
-                    <p className={style.img_pc}>
-                      <img src="/img/temp_facilities_slide.jpg" alt="" />
-                    </p>
-                    <p className={style.img_m}>
-                      <img src="/img/temp_facilities_slide_m.jpg" alt="" />
+                      <img
+                        src="/img/facilities_slide_personal_02_m.jpg"
+                        alt="개인시설 이미지 2"
+                      />
                     </p>
                   </SwiperSlide>
                 </Swiper>

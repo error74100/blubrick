@@ -92,6 +92,42 @@
   color: var(--main-color);
 }
 
+.go_top {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 50;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  overflow: hidden;
+}
+
+.go_top_btn {
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 51;
+  width: 50px;
+  height: 50px;
+  background-image: url(/img/icon-right-arrow.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50% auto;
+  transform: rotate(-90deg);
+  font-size: 0;
+  line-height: 0;
+  border: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(51, 129, 208, 0.5);
+}
+
 @media all and (max-width: 1000px) {
   .header .gnb {
     display: none;
