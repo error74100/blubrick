@@ -79,6 +79,7 @@ body {
   line-height: 1.285;
   font-family: 'Pretendard', 'Apple SD 산돌고딕 Neo', 'Apple SD Gothic Neo',
     '나눔고딕', NanumGothic, ng, sans-serif;
+  word-break: keep-all;
 }
 
 :root {
@@ -231,7 +232,25 @@ a[class*='btn_basic'].round {
 
 .swiper-button-prev,
 .swiper-button-next {
-  color: var(--main-color) !important;
+  width: 44px !important;
+  height: 60px !important;
+  color: #fff !important;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  right: 0px !important;
+}
+
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  left: 0px !important;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-size: 30px !important;
 }
 
 /* nav-tabs */
@@ -387,5 +406,17 @@ a[class*='btn_basic'].round {
     top: 24px;
     width: 22px;
     height: 22px;
+  }
+
+  /* swiper */
+  .swiper-button-prev,
+  .swiper-button-next {
+    width: 34px !important;
+    height: 50px !important;
+  }
+
+  .swiper-button-prev:after,
+  .swiper-button-next:after {
+    font-size: 20px !important;
   }
 }

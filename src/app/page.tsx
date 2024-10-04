@@ -100,7 +100,7 @@ export default function Home() {
 
       <section className={style.intro}>
         <h3 className={style.h3_type} data-aos="fade-up">
-          시설 소개
+          생활 안내
         </h3>
         <p data-aos="fade-left" data-aos-delay="500">
           asdf asdfa sasdf
@@ -143,7 +143,7 @@ export default function Home() {
         </div>
 
         <p className={style.btn}>
-          <Link href="/facilities" className="btn_basic1">
+          <Link href="/information" className="btn_basic1">
             자세히 보기
           </Link>
         </p>
