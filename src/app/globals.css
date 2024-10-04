@@ -98,7 +98,7 @@ body {
 .subwrap .sub_visual {
   position: relative;
   text-align: center;
-  background-image: url(/img/sub_visual_01.jpg);
+  /* background-image: url(/img/sub_visual_01.jpg); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -118,26 +118,6 @@ body {
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.5);
-}
-
-.subwrap .sub_visual.type2 {
-  background-image: url(/img/sub_visual_02.jpg);
-}
-
-.subwrap .sub_visual.type3 {
-  background-image: url(/img/sub_visual_03.jpg);
-}
-
-.subwrap .sub_visual.type4 {
-  background-image: url(/img/sub_visual_04.jpg);
-}
-
-.subwrap .sub_visual.type5 {
-  background-image: url(/img/sub_visual_05.jpg);
-}
-
-.subwrap .sub_visual.type6 {
-  background-image: url(/img/sub_visual_06.jpg);
 }
 
 .subwrap .sub_visual h2 {

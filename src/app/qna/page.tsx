@@ -17,7 +17,15 @@ export default function Page() {
 
   return (
     <div className="subwrap">
-      <div className="sub_visual type6">
+      <div className="sub_visual">
+        <Image
+          src="/img/sub_visual_06.jpg"
+          alt="Background"
+          layout="fill"
+          objectFit="cover"
+          quality={10}
+        />
+
         <h2 data-aos="fade-up">Room Inquiry</h2>
       </div>
 

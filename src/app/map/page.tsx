@@ -5,6 +5,7 @@ import style from './page.module.css';
 import AOS from 'aos';
 import { useEffect } from 'react';
 import Badge from 'react-bootstrap/Badge';
+import Image from 'next/image';
 
 declare global {
   interface Window {
@@ -112,7 +113,15 @@ export default function Page() {
   return (
     <>
       <div className="subwrap">
-        <div className="sub_visual type5">
+        <div className="sub_visual">
+          <Image
+            src="/img/sub_visual_05.jpg"
+            alt="Background"
+            layout="fill"
+            objectFit="cover"
+            quality={10}
+          />
+
           <h2 data-aos="fade-up">Directions</h2>
         </div>
 
