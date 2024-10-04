@@ -119,7 +119,7 @@ export default function Page() {
             alt="Background"
             layout="fill"
             objectFit="cover"
-            quality={10}
+            quality={50}
           />
 
           <h2 data-aos="fade-up">Directions</h2>
