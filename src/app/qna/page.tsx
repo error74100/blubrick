@@ -5,6 +5,7 @@ import style from './page.module.css';
 import AOS from 'aos';
 import { useEffect } from 'react';
 import Accordion from 'react-bootstrap/Accordion';
+import Image from 'next/image';
 
 export default function Page() {
   useEffect(() => {
@@ -30,7 +31,12 @@ export default function Page() {
 
             <div className={style.group}>
               <p className={style.img}>
-                <img src="/img/icon-headset.png" alt="입실 문의 이미지" />
+                <Image
+                  width={100}
+                  height={100}
+                  src="/img/icon-headset.png"
+                  alt="입실 문의 이미지"
+                />
               </p>
               <div className={style.call}>
                 <a href="tel:010-0000-0000">010-0000-0000</a>

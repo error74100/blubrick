@@ -14,6 +14,7 @@ import 'swiper/css/scrollbar';
 
 import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Home() {
   const [isActive, setIsActive] = useState(false);
@@ -73,26 +74,56 @@ export default function Home() {
         >
           <SwiperSlide className={style.slide_item}>
             <p className={style.img_pc}>
-              <img src="/img/temp_main_slidebanner.jpg" alt="" />
+              <Image
+                width={1920}
+                height={700}
+                src="/img/temp_main_slidebanner.jpg"
+                alt=""
+              />
             </p>
             <p className={style.img_m}>
-              <img src="/img/temp_main_slidebanner_m.jpg" alt="" />
+              <Image
+                width={1000}
+                height={1000}
+                src="/img/temp_main_slidebanner_m.jpg"
+                alt=""
+              />
             </p>
           </SwiperSlide>
           <SwiperSlide className={style.slide_item}>
             <p className={style.img_pc}>
-              <img src="/img/temp_main_slidebanner.jpg" alt="" />
+              <Image
+                width={1920}
+                height={700}
+                src="/img/temp_main_slidebanner.jpg"
+                alt=""
+              />
             </p>
             <p className={style.img_m}>
-              <img src="/img/temp_main_slidebanner_m.jpg" alt="" />
+              <Image
+                width={1000}
+                height={1000}
+                src="/img/temp_main_slidebanner_m.jpg"
+                alt=""
+              />
             </p>
           </SwiperSlide>
           <SwiperSlide className={style.slide_item}>
             <p className={style.img_pc}>
-              <img src="/img/temp_main_slidebanner.jpg" alt="" />
+              <Image
+                width={1920}
+                height={700}
+                src="/img/temp_main_slidebanner.jpg"
+                alt=""
+              />
             </p>
             <p className={style.img_m}>
-              <img src="/img/temp_main_slidebanner_m.jpg" alt="" />
+              <Image
+                width={1000}
+                height={1000}
+                src="/img/temp_main_slidebanner_m.jpg"
+                alt=""
+              />
             </p>
           </SwiperSlide>
         </Swiper>
@@ -113,28 +144,48 @@ export default function Home() {
           <ul>
             <li>
               <p className={style.img}>
-                <img src="/img/icon-toilet.png" alt="각방 화장실 이미지" />
+                <Image
+                  width={512}
+                  height={512}
+                  src="/img/icon-toilet.png"
+                  alt="각방 화장실 이미지"
+                />
               </p>
               <p>각방 화장실</p>
               <p className={style.desc}>bathroom in each room</p>
             </li>
             <li>
               <p className={style.img}>
-                <img src="/img/icon-single-bed.png" alt="편안한 침대 이미지" />
+                <Image
+                  width={512}
+                  height={512}
+                  src="/img/icon-single-bed.png"
+                  alt="편안한 침대 이미지"
+                />
               </p>
               <p>편안한 침대</p>
               <p className={style.desc}>comfortable bed</p>
             </li>
             <li>
               <p className={style.img}>
-                <img src="/img/icon-work-table.png" alt="책상, 의자 이미지" />
+                <Image
+                  width={512}
+                  height={512}
+                  src="/img/icon-work-table.png"
+                  alt="책상, 의자 이미지"
+                />
               </p>
               <p>책상, 의자</p>
               <p className={style.desc}>desk & chair</p>
             </li>
             <li>
               <p className={style.img}>
-                <img src="/img/icon-wifi.png" alt="각방 WI-FI 이미지" />
+                <Image
+                  width={512}
+                  height={512}
+                  src="/img/icon-wifi.png"
+                  alt="각방 WI-FI 이미지"
+                />
               </p>
               <p>각방 WI-FI</p>
               <p className={style.desc}>WI-FI in each room</p>
@@ -166,7 +217,12 @@ export default function Home() {
 
         <div className={style.inner}>
           <p className={style.img}>
-            <img src="/img/icon-headset.png" alt="입실 문의 이미지" />
+            <Image
+              width={200}
+              height={200}
+              src="/img/icon-headset.png"
+              alt="입실 문의 이미지"
+            />
           </p>
           <div className={style.call}>
             <a href="tel:010-0000-0000">010-0000-0000</a>

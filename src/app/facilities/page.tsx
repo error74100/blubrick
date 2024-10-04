@@ -13,6 +13,7 @@ import { useEffect } from 'react';
 
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
+import Image from 'next/image';
 
 export default function Page() {
   useEffect(() => {
@@ -59,13 +60,17 @@ export default function Page() {
                 >
                   <SwiperSlide className={style.slide_item}>
                     <p className={style.img_pc}>
-                      <img
+                      <Image
+                        width={1920}
+                        height={700}
                         src="/img/facilities_slide_personal_01.jpg"
                         alt="개인시설 이미지 1"
                       />
                     </p>
                     <p className={style.img_m}>
-                      <img
+                      <Image
+                        width={1000}
+                        height={1000}
                         src="/img/facilities_slide_personal_01_m.jpg"
                         alt="개인시설 이미지 1"
                       />
@@ -73,13 +78,17 @@ export default function Page() {
                   </SwiperSlide>
                   <SwiperSlide className={style.slide_item}>
                     <p className={style.img_pc}>
-                      <img
+                      <Image
+                        width={1920}
+                        height={700}
                         src="/img/facilities_slide_personal_02.jpg"
                         alt="개인시설 이미지 2"
                       />
                     </p>
                     <p className={style.img_m}>
-                      <img
+                      <Image
+                        width={1000}
+                        height={1000}
                         src="/img/facilities_slide_personal_02_m.jpg"
                         alt="개인시설 이미지 2"
                       />
@@ -99,13 +108,17 @@ export default function Page() {
                 >
                   <SwiperSlide className={style.slide_item}>
                     <p className={style.img_pc}>
-                      <img
+                      <Image
+                        width={1920}
+                        height={700}
                         src="/img/facilities_slide_personal_01.jpg"
                         alt="개인시설 이미지 1"
                       />
                     </p>
                     <p className={style.img_m}>
-                      <img
+                      <Image
+                        width={1000}
+                        height={1000}
                         src="/img/facilities_slide_personal_01_m.jpg"
                         alt="개인시설 이미지 1"
                       />
@@ -113,13 +126,17 @@ export default function Page() {
                   </SwiperSlide>
                   <SwiperSlide className={style.slide_item}>
                     <p className={style.img_pc}>
-                      <img
+                      <Image
+                        width={1920}
+                        height={700}
                         src="/img/facilities_slide_personal_02.jpg"
                         alt="개인시설 이미지 2"
                       />
                     </p>
                     <p className={style.img_m}>
-                      <img
+                      <Image
+                        width={1000}
+                        height={1000}
                         src="/img/facilities_slide_personal_02_m.jpg"
                         alt="개인시설 이미지 2"
                       />

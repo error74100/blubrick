@@ -46,6 +46,7 @@
 
 .facilities_intro .slider_wrap .slide_item img {
   width: 100%;
+  height: 100%;
 }
 
 @media all and (max-width: 1000px) {

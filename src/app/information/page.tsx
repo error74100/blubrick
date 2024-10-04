@@ -4,6 +4,7 @@ import 'aos/dist/aos.css';
 import style from './page.module.css';
 import AOS from 'aos';
 import { useEffect } from 'react';
+import Image from 'next/image';
 
 export default function Page() {
   useEffect(() => {
@@ -27,7 +28,9 @@ export default function Page() {
                 <li>
                   <div className={style.img_wrap}>
                     <p className={style.img} data-aos="fade-right">
-                      <img
+                      <Image
+                        width={740}
+                        height={470}
                         src="/img/temp_information_img_01.jpg"
                         alt="풀옵션 원룸텔 이미지"
                       />
@@ -50,7 +53,9 @@ export default function Page() {
                 <li>
                   <div className={style.img_wrap}>
                     <p className={style.img} data-aos="fade-left">
-                      <img
+                      <Image
+                        width={740}
+                        height={470}
                         src="/img/temp_information_img_01.jpg"
                         alt="인터넷 환경 이미지"
                       />
@@ -68,7 +73,9 @@ export default function Page() {
                 <li>
                   <div className={style.img_wrap}>
                     <p className={style.img} data-aos="fade-right">
-                      <img
+                      <Image
+                        width={740}
+                        height={470}
                         src="/img/temp_information_img_01.jpg"
                         alt="주방시설 및 세탁 이미지"
                       />
@@ -90,7 +97,9 @@ export default function Page() {
                 <li>
                   <div className={style.img_wrap}>
                     <p className={style.img} data-aos="fade-left">
-                      <img
+                      <Image
+                        width={740}
+                        height={470}
                         src="/img/temp_information_img_01.jpg"
                         alt="소방시설 이미지"
                       />
