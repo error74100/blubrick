@@ -22,10 +22,10 @@ export default function Page() {
       <div className="sub_content">
         <div className={style.about_intro}>
           <div className={style.inner}>
-            <div className={style.contbox}>
-              <h3 data-aos="fade-right">소개 소제목</h3>
-              <h2 data-aos="fade-right">소개 제목</h2>
-              <p data-aos="fade-right">
+            <div className={style.contbox} data-aos="fade-right">
+              <h3>소개 소제목</h3>
+              <h2>소개 제목</h2>
+              <p>
                 When true The offcanvas will prevent focus from leaving the
                 offcanvas while open. Consider leaving the default value here,
                 as it is necessary to make the offcanvas work well with
@@ -40,9 +40,9 @@ export default function Page() {
 
         <div className={style.about_info}>
           <div className={style.inner}>
-            <div className={style.contbox}>
-              <h2 data-aos="fade-right">about 2</h2>
-              <p data-aos="fade-right">
+            <div className={style.contbox} data-aos="fade-right">
+              <h2>about 2</h2>
+              <p>
                 When true The offcanvas will prevent focus from leaving the
                 offcanvas while open.
                 <br />

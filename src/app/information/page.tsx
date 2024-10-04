@@ -34,16 +34,13 @@ export default function Page() {
                     </p>
                   </div>
 
-                  <div className={style.cont_wrap}>
-                    <h2 data-aos="fade-left">풀옵션 원룸텔</h2>
-                    <p className={style.indent} data-aos="fade-left">
+                  <div className={style.cont_wrap} data-aos="fade-left">
+                    <h2>풀옵션 원룸텔</h2>
+                    <p className={style.indent}>
                       개인 냉장고, 옷장, 책장 포함이며 벽돌시공으로 소음이
                       적습니다.
                     </p>
-                    <p className={style.indent} data-aos="fade-left">
-                      주변에도 소음을 유발하는 영업장이 없어서 조용합니다.
-                    </p>
-                    <p className={style.indent} data-aos="fade-left">
+                    <p className={style.indent}>
                       방에 따라 베란다, 개인 화장실, 샤워실, 개인 에어컨
                       포함입니다.
                     </p>
@@ -60,9 +57,9 @@ export default function Page() {
                     </p>
                   </div>
 
-                  <div className={style.cont_wrap}>
-                    <h2 data-aos="fade-right">인터넷 환경</h2>
-                    <p className={style.indent} data-aos="fade-right">
+                  <div className={style.cont_wrap} data-aos="fade-right">
+                    <h2>인터넷 환경</h2>
+                    <p className={style.indent}>
                       초고속 wifi 설치되어 있습니다.
                     </p>
                   </div>
@@ -78,13 +75,13 @@ export default function Page() {
                     </p>
                   </div>
 
-                  <div className={style.cont_wrap}>
-                    <h2 data-aos="fade-left">주방시설 및 세탁</h2>
-                    <p className={style.indent} data-aos="fade-left">
+                  <div className={style.cont_wrap} data-aos="fade-left">
+                    <h2>주방시설 및 세탁</h2>
+                    <p className={style.indent}>
                       밥솥, 정수기, 인덕션, 전자레인지, 냄비, 그릇, 수저, 라면,
                       쌀 등이 있습니다.
                     </p>
-                    <p className={style.indent} data-aos="fade-left">
+                    <p className={style.indent}>
                       세탁기, 세탁세제 등이 있습니다.
                     </p>
                   </div>
@@ -100,9 +97,9 @@ export default function Page() {
                     </p>
                   </div>
 
-                  <div className={style.cont_wrap}>
-                    <h2 data-aos="fade-right">소방시설</h2>
-                    <p className={style.indent} data-aos="fade-right">
+                  <div className={style.cont_wrap} data-aos="fade-right">
+                    <h2>소방시설</h2>
+                    <p className={style.indent}>
                       자동 화재감지시스템 및 스프링클러가 장착되어 있습니다.
                     </p>
                   </div>

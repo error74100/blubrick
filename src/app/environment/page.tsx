@@ -34,12 +34,12 @@ export default function Page() {
                     </p>
                   </div>
 
-                  <div className={style.cont_wrap}>
-                    <h2 data-aos="fade-left">주변환경</h2>
-                    <p className={style.indent} data-aos="fade-left">
+                  <div className={style.cont_wrap} data-aos="fade-left">
+                    <h2>주변환경</h2>
+                    <p className={style.indent}>
                       주변에도 소음을 유발하는 영업장이 없어서 조용합니다.
                     </p>
-                    <p className={style.indent} data-aos="fade-left">
+                    <p className={style.indent}>
                       1층에 편의점과 커피 전문점 입점해있으며 1분거리 수협이
                       있어서 생활하기 편리한 곳입니다.
                     </p>
@@ -56,34 +56,23 @@ export default function Page() {
                     </p>
                   </div>
 
-                  <div className={style.cont_wrap}>
-                    <h2 data-aos="fade-right">교통환경</h2>
-                    <p className={style.indent} data-aos="fade-right">
+                  <div className={style.cont_wrap} data-aos="fade-right">
+                    <h2>교통환경</h2>
+                    <p className={style.indent}>
                       노량진역 1,9호선에서 5분거리.
                     </p>
-                    <p className={style.indent} data-aos="fade-right">
-                      삼익 수협 마트바로 뒤.
-                    </p>
+                    <p className={style.indent}>삼익 수협 마트바로 뒤.</p>
 
                     <br />
 
-                    <p
-                      className={`${style.indent} ${style.type2}`}
-                      data-aos="fade-right"
-                    >
+                    <p className={`${style.indent} ${style.type2}`}>
                       <b>＊버스노선</b>
                     </p>
-                    <p
-                      className={`${style.indent} ${style.type2}`}
-                      data-aos="fade-right"
-                    >
+                    <p className={`${style.indent} ${style.type2}`}>
                       <span className="badge bg-primary">일반</span> 100, 200,
                       300
                     </p>
-                    <p
-                      className={`${style.indent} ${style.type2}`}
-                      data-aos="fade-right"
-                    >
+                    <p className={`${style.indent} ${style.type2}`}>
                       <span className="badge bg-success">좌석</span> 1000, 2022
                     </p>
                   </div>
