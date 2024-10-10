@@ -117,8 +117,9 @@ export default function Page() {
           <Image
             src="/img/sub_visual_05.jpg"
             alt="Background"
-            layout="fill"
-            objectFit="cover"
+            fill
+            style={{ objectFit: 'cover' }}
+            priority
             quality={50}
           />
 

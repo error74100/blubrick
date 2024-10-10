@@ -20,10 +20,12 @@ export default function Page() {
         <Image
           src="/img/sub_visual_01.jpg"
           alt="Background"
-          layout="fill"
-          objectFit="cover"
+          fill
+          style={{ objectFit: 'cover' }}
+          priority
           quality={50}
         />
+
         <h2 data-aos="fade-up">About</h2>
       </div>
 
