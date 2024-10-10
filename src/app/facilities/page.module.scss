@@ -1,0 +1,64 @@
+.facilities_intro {
+  color: rgba(255, 255, 255, 0.8);
+  padding: 20px 0 0 0;
+  background-color: #222;
+
+  .inner {
+    display: flex;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 100px 20px 20px 20px;
+  }
+
+  .contbox {
+    width: 100%;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    font-weight: 300;
+
+    h2 {
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+
+    h3 {
+      font-size: 1.125rem;
+      padding: 4px 0 40px 0;
+      font-weight: 400;
+    }
+  }
+
+  .slider_wrap {
+    .slide_tabs {
+      margin: 0 auto !important;
+      padding: 0 20px;
+      max-width: var(--max-width);
+      border: none;
+    }
+
+    .slide_item .img_pc {
+      display: block;
+    }
+
+    .slide_item .img_m {
+      display: none;
+    }
+
+    .slide_item img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .facilities_intro {
+    .slider_wrap .slide_item .img_pc {
+      display: none;
+    }
+
+    .slider_wrap .slide_item .img_m {
+      display: block;
+    }
+  }
+}

@@ -1,6 +1,6 @@
 'use client';
 
-import style from './page.module.css';
+import style from './page.module.scss';
 
 import 'aos/dist/aos.css';
 import AOS from 'aos';

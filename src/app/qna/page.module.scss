@@ -1,0 +1,93 @@
+.qna_intro {
+  padding: 50px 20px;
+  background-color: #f2f2f2;
+
+  .inner {
+    display: flex;
+    flex-direction: column;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 50px 0 100px 0;
+  }
+
+  .contbox {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    font-weight: 300;
+
+    h2 {
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+
+    h3 {
+      font-size: 1.375rem;
+      padding: 4px 0 50px 0;
+      font-weight: 400;
+    }
+  }
+
+  .group {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 20px 80px 20px;
+    border: 5px solid #ddd;
+    background-color: #fff;
+
+    .h3_type {
+      font-size: 1.875rem;
+      font-weight: 700;
+    }
+
+    .img {
+      padding: 25px 0 22px 0;
+
+      img {
+        max-width: 100px;
+      }
+    }
+
+    .call a {
+      display: inline-block;
+      font-size: 2.25rem;
+      color: #222;
+      font-weight: 700;
+    }
+
+    .call p {
+      padding: 5px 0 40px 0;
+    }
+  }
+
+  .faq {
+    border: 1px solid #ddd;
+  }
+
+  &.faq_type {
+    padding: 50px 20px 100px 20px;
+    background-color: #fff;
+  }
+
+  .faq_cont {
+    border-top: 1px solid #222;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .qna_intro {
+    &.faq_type {
+      padding: 40px 20px 40px 20px;
+    }
+
+    .group .call a {
+      font-size: 1.875rem;
+    }
+
+    .contbox h3 {
+      font-size: 1.125rem;
+    }
+  }
+}

@@ -1,7 +1,7 @@
 'use client';
 
 import 'aos/dist/aos.css';
-import style from './page.module.css';
+import style from './page.module.scss';
 import AOS from 'aos';
 import { useEffect } from 'react';
 import Badge from 'react-bootstrap/Badge';

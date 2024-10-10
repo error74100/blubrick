@@ -1,7 +1,7 @@
 'use client';
 
 import 'aos/dist/aos.css';
-import style from './page.module.css';
+import style from './page.module.scss';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';

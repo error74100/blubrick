@@ -1,0 +1,159 @@
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  transition: background-color 0.3s ease;
+  z-index: 10;
+
+  &.active {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--inner-gap);
+  }
+
+  a {
+    color: #fff;
+  }
+
+  .gnb {
+    li {
+      display: flex;
+      gap: 40px;
+
+      a {
+        word-break: keep-all;
+        font-weight: 700;
+
+        &:hover,
+        &.active {
+          color: rgb(120 186 253);
+        }
+      }
+    }
+  }
+
+  .m_menu_btn {
+    display: none;
+    position: fixed;
+    right: 20px;
+    top: 6px;
+    width: 46px;
+    height: 46px;
+    text-indent: -9999em;
+    z-index: 8;
+    cursor: pointer;
+    border: 0;
+    background: transparent;
+  }
+
+  .hamburger_menu {
+    > div {
+      background: rgb(255, 255, 255);
+      height: 2px;
+      left: 12px;
+      position: absolute;
+      border-radius: 2px;
+      width: 24px;
+      top: 23px;
+      transition: all 0.2s cubic-bezier(0, 0, 0, 1) 0s;
+      transform: none;
+
+      &:first-child {
+        top: 17px;
+      }
+
+      &:last-child {
+        top: 29px;
+      }
+    }
+  }
+}
+
+.m_menu_wrap {
+  max-width: 300px;
+
+  .gnb {
+    li {
+      padding: 20px 5px;
+      border-bottom: 1px solid #ddd;
+
+      a {
+        display: block;
+        color: #222;
+        font-size: 1.125rem;
+        font-weight: 500;
+
+        &:hover,
+        &.active {
+          color: var(--main-color);
+        }
+      }
+    }
+  }
+}
+
+.go_top {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 50;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  overflow: hidden;
+}
+
+.go_top_btn {
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 51;
+  width: 50px;
+  height: 50px;
+  background-image: url(/img/icon-right-arrow.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50% auto;
+  transform: rotate(-90deg);
+  font-size: 0;
+  line-height: 0;
+  border: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(51, 129, 208, 0.5);
+}
+
+@media all and (max-width: 1000px) {
+  .header {
+    .gnb {
+      display: none;
+    }
+
+    .m_menu_btn {
+      display: inline-block;
+    }
+  }
+}
+
+@media all and (max-width: 480px) {
+  .m_menu_wrap {
+    max-width: 70%;
+  }
+
+  .header {
+    .m_menu_btn {
+      right: 10px;
+    }
+  }
+}

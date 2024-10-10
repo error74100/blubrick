@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import style from './header.module.css';
+import style from './header.module.scss';
 import { useEffect, useState } from 'react';
 import { usePathname } from 'next/navigation';
 import Offcanvas from 'react-bootstrap/Offcanvas';
